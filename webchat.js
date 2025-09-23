@@ -121,9 +121,9 @@
                 width: calc(100% - 20px) !important;
                 height: calc(70% - 20px) !important;
                 bottom: 10px !important;
-                top: 10px !important;
-                left: 10px !important;
-                right: 10px !important;
+                top: 0px !important;
+                left: 0px !important;
+                right: 0px !important;
             }
 
             .chat-assist-widget .chat-launcher {
