@@ -96,7 +96,7 @@
         @media (max-width: 768px) {
             .chat-assist-widget .chat-window {
                 width: calc(100% - 40px) !important;
-                height: calc(100% - 40px) !important;
+                height: calc(70% - 40px) !important;
                 bottom: 20px !important;
                 top: 20px !important;
                 left: 20px !important;
@@ -119,7 +119,7 @@
         @media (max-width: 480px) {
             .chat-assist-widget .chat-window {
                 width: calc(100% - 20px) !important;
-                height: calc(100% - 20px) !important;
+                height: calc(70% - 20px) !important;
                 bottom: 10px !important;
                 top: 10px !important;
                 left: 10px !important;
@@ -446,7 +446,7 @@
         .chat-assist-widget .chat-footer-link {
             color: var(--chat-color-primary);
             text-decoration: none;
-            font-size: 12px;
+            font-size: 14px;
             opacity: 0.8;
             transition: var(--chat-transition);
             font-family: inherit;
@@ -497,13 +497,14 @@
         }
 
         .chat-assist-widget .user-registration {
-            position: absolute;
-            top: 70%;
-            left: 50%;
+            position: relative;
+            top: auto;
+            left: auto;
             transform: translate(-50%, -50%);
             padding: 24px;
             text-align: center;
             width: 100%;
+            margin: 0 auto;
             max-width: 320px;
             display: none;
         }
