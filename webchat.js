@@ -98,9 +98,9 @@
                 width: calc(100% - 40px) !important;
                 height: calc(70% - 40px) !important;
                 bottom: 20px !important;
-                top: 20px !important;
-                left: 20px !important;
-                right: 20px !important;
+                top: 0px !important;
+                left: 0px !important;
+                right: 0px !important;
                 border-radius: var(--chat-radius-lg);
             }
 
