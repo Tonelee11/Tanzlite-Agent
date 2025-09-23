@@ -518,6 +518,7 @@
             color: var(--chat-color-text);
             margin-bottom: 16px;
             line-height: 1.3;
+            margin-top: 20px; /* Add space from top */
         }
 
         .chat-assist-widget .registration-form {
