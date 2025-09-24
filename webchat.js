@@ -498,8 +498,8 @@
 
         .chat-assist-widget .user-registration {
             position: relative;
-            top: auto;
-            left: auto;
+            top: 50%;
+            left: 50%;
             transform: translate(-50%, -50%);
             padding: 24px;
             text-align: center;
