@@ -96,11 +96,11 @@
         @media (max-width: 768px) {
             .chat-assist-widget .chat-window {
                 width: calc(100% - 40px) !important;
-                height: calc(70% - 40px) !important;
+                height: calc(100% - 40px) !important;
                 bottom: 20px !important;
-                top: 0px !important;
-                left: 0px !important;
-                right: 0px !important;
+                top: 20px !important;
+                left: 20px !important;
+                right: 20px !important;
                 border-radius: var(--chat-radius-lg);
             }
 
@@ -119,11 +119,11 @@
         @media (max-width: 480px) {
             .chat-assist-widget .chat-window {
                 width: calc(100% - 20px) !important;
-                height: calc(70% - 20px) !important;
+                height: calc(100% - 20px) !important;
                 bottom: 10px !important;
-                top: 0px !important;
-                left: 0px !important;
-                right: 0px !important;
+                top: 10px !important;
+                left: 10px !important;
+                right: 10px !important;
             }
 
             .chat-assist-widget .chat-launcher {
@@ -446,7 +446,7 @@
         .chat-assist-widget .chat-footer-link {
             color: var(--chat-color-primary);
             text-decoration: none;
-            font-size: 14px;
+            font-size: 12px;
             opacity: 0.8;
             transition: var(--chat-transition);
             font-family: inherit;
@@ -497,14 +497,13 @@
         }
 
         .chat-assist-widget .user-registration {
-            position: relative;
+            position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             padding: 24px;
             text-align: center;
             width: 100%;
-            margin: 0 auto;
             max-width: 320px;
             display: none;
         }
@@ -519,7 +518,6 @@
             color: var(--chat-color-text);
             margin-bottom: 16px;
             line-height: 1.3;
-            margin-top: 20px; /* Add space from top */
         }
 
         .chat-assist-widget .registration-form {
@@ -685,7 +683,7 @@
             <p class="chat-response-time">${settings.branding.responseTimeText}</p>
         </div>
         <div class="user-registration">
-            /* <h2 class="registration-title">Please enter your details to start chatting</h2> */
+            <h2 class="registration-title">Please enter your details to start chatting</h2>
             <form class="registration-form">
                 <div class="form-field">
                     <label class="form-label" for="chat-user-name">Name</label>
