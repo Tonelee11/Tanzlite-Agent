@@ -497,28 +497,33 @@
         }
 
         .chat-assist-widget .user-registration {
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 24px;
-            text-align: center;
-            width: 100%;
-            max-width: 320px;
-            display: none;
-        }
+    position: relative;
+    padding: 60px 24px 24px;
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    display: none;
+    flex: 1;
+    overflow-y: auto;
+}
 
-        .chat-assist-widget .user-registration.active {
-            display: block;
-        }
+.chat-assist-widget .user-registration.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
 
-        .chat-assist-widget .registration-title {
-            font-size: 18px;
-            font-weight: 600;
-            color: var(--chat-color-text);
-            margin-bottom: 16px;
-            line-height: 1.3;
-        }
+.chat-assist-widget .registration-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--chat-color-text);
+    margin-bottom: 24px;
+    line-height: 1.3;
+    margin-top: 0;
+}
 
         .chat-assist-widget .registration-form {
             display: flex;
