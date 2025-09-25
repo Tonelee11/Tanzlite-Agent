@@ -633,8 +633,8 @@
         },
         branding: {
             logo: 'https://test.tanzlite.host/wp-content/uploads/2025/09/Minza-at-Tanzlite.jpg',
-            name: 'Tanzlite Agent',
-            welcomeText: 'Welcome to Tanzlite Agent',
+            name: 'Minza at Tanzlite',
+            welcomeText: 'Hi, How can I help you?',
             responseTimeText: '',
             poweredBy: {
                 text: 'Powered by Tanzlite',
