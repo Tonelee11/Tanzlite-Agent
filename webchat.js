@@ -632,7 +632,7 @@
             route: 'general'
         },
         branding: {
-            logo: 'https://www.anthoncharles.com/wp-content/uploads/2024/12/Anthony-Charles-logo.png',
+            logo: 'https://test.tanzlite.host/wp-content/uploads/2025/09/Minza-at-Tanzlite.jpg',
             name: 'Tanzlite Agent',
             welcomeText: 'Welcome to Tanzlite Agent',
             responseTimeText: '',
